@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/backButton"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@mipmap/backbutton" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="196dp"
+            android:layout_height="23dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="40dp"
+            android:background="@mipmap/security" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="125dp"
+            android:layout_height="28dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="16dp"
+            android:background="@mipmap/motion"/>
+
+        <ImageView
+            android:id="@+id/motionImageView"
+            android:layout_width="304dp"
+            android:layout_height="32dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="24dp"
+            android:background="@mipmap/motionno" />
+
+
+    </LinearLayout>
+</RelativeLayout>

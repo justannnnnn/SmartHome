@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+
+  <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <Button
+
+
+        android:id="@+id/backButton"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+
+        android:layout_marginLeft="20dp"
+
+        android:layout_marginTop="24dp"
+
+        android:background="@mipmap/backbutton"/>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="196dp"
+        android:layout_height="23dp"
+
+        android:layout_marginLeft="40dp"
+
+        android:layout_marginTop="24dp"
+        android:background="@mipmap/washer" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+      <Button
+          android:id="@+id/valveButton"
+          android:layout_width="108dp"
+          android:layout_height="216dp"
+
+          android:layout_marginLeft="47dp"
+
+          android:layout_marginTop="40dp"
+          android:background="@mipmap/valvebuttonoff"/>
+
+      <Button
+          android:id="@+id/washerLayoutButton"
+          android:layout_width="108dp"
+          android:layout_height="216dp"
+
+          android:layout_marginLeft="72dp"
+
+          android:layout_marginTop="40dp"
+          android:background="@mipmap/washerbuttonoff" />
+    </LinearLayout>
+  </LinearLayout>
+</RelativeLayout> 

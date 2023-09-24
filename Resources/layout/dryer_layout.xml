@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+  <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/backButton"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            
+            android:layout_marginLeft="20dp"
+            
+            android:layout_marginTop="24dp"
+            android:background="@mipmap/backbutton"/>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="196dp"
+            android:layout_height="23dp"
+            
+            android:layout_marginLeft="33dp"
+            
+            android:layout_marginTop="24dp"
+            android:background="@mipmap/dryer"
+            android:gravity="top"/>
+
+        <ImageView
+            android:id="@+id/imageStateView"
+            android:layout_width="260dp"
+            android:layout_height="232dp"
+            
+            android:layout_marginLeft="64dp"
+            
+            android:layout_marginTop="20dp"
+            android:background="@mipmap/state0" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/minusButton"
+                android:layout_width="44dp"
+                android:layout_height="44dp"
+                
+                android:layout_marginLeft="80dp"
+                
+                android:layout_marginTop="3dp"
+                android:background="@mipmap/minusbuttonunpressed" />
+
+            <Button
+                android:id="@+id/plusButton"
+                android:layout_width="44dp"
+                android:layout_height="44dp"
+                
+                android:layout_marginLeft="140dp"
+                
+                android:layout_marginTop="3dp"
+                android:background="@mipmap/plusbuttonunpressed"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="119dp"
+            android:layout_height="25dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="40dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="-364dp"
+            android:background="@mipmap/other_settings"
+            android:gravity="top" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/tempStateButton"
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                
+                android:layout_marginLeft="64dp"
+                android:layout_marginTop="4dp"
+                android:background="@mipmap/temperaturestate0"
+                android:gravity="top" />
+
+            <Button
+                android:id="@+id/timeStateButton"
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                
+                android:layout_marginLeft="64dp"
+                android:layout_marginTop="44dp"
+                android:background="@mipmap/timestate0" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/powerButton"
+            android:layout_width="241dp"
+            android:layout_height="64dp"
+            
+            android:layout_marginLeft="80dp"
+            
+            android:layout_marginTop="1dp"
+            android:background="@mipmap/powerbuttonoff"/>
+
+    </LinearLayout>
+</RelativeLayout>

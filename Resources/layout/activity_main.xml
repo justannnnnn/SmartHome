@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout   
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/my_smart_ho"
+                android:layout_width="224dp"
+                android:layout_height="40dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="24dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="24dp"
+                android:gravity="top"
+                android:background="@mipmap/my_smart_home"
+                 />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/dryerButton"
+                    android:layout_width="146dp"
+                    android:layout_height="56dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="24dp"
+                    android:layout_marginTop="24dp"
+                    android:background="@mipmap/dryerbutton" />
+
+                <Button
+                    android:id="@+id/washerButton"
+                    android:layout_width="146dp"
+                    android:layout_height="56dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="40dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="24dp"
+                    android:background="@mipmap/washerbutton" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/securityButton"
+                    android:layout_width="146dp"
+                    android:layout_height="56dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="24dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="20dp"
+                    android:background="@mipmap/securitybutton" />
+
+                <Button
+                    android:id="@+id/basementButton"
+                    android:layout_width="146dp"
+                    android:layout_height="56dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@mipmap/basementbutton" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="214dp"
+                android:layout_height="36dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="24dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="40dp"
+                android:background="@mipmap/are_you_just_want_to_come_in"
+                android:gravity="top"/>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="96dp"
+                android:layout_height="20dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="24dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="0dp"
+                android:background="@mipmap/actions"
+                android:gravity="top" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/doorButton"
+                    android:layout_width="136dp"
+                    android:layout_height="200dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="36dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="12dp"
+                    android:background="@mipmap/doorbutton" />
+
+                <Button
+                    android:id="@+id/gateButton"
+                    android:layout_width="136dp"
+                    android:layout_height="200dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="40dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="12dp"
+                    android:background="@mipmap/gatebutton" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="24dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="12dp"
+                android:background="@mipmap/other_features"
+                android:gravity="top"/>
+
+            <Button
+                android:id="@+id/outsideButton"
+                android:layout_width="144dp"
+                android:layout_height="36dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="24dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="0dp"
+                android:background="@mipmap/outsidebutton" />
+
+            <Button
+                android:id="@+id/irrigationButton"
+                android:layout_width="144dp"
+                android:layout_height="36dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="24dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="4dp"
+                android:background="@mipmap/irrigationbutton" />
+
+            <Button
+                android:id="@+id/insideButton"
+                android:layout_width="145dp"
+                android:layout_height="36dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="24dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="4dp"
+                android:background="@mipmap/insidebutton" />
+
+            <Button
+                android:id="@+id/infoButton"
+                android:layout_width="145dp"
+                android:layout_height="36dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="24dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="4dp"
+                android:background="@mipmap/infobutton"/>
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="144dp"
+                android:layout_height="36dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="24dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="4dp"
+                android:background="@mipmap/settingsbutton" />
+
+        </LinearLayout>
+    </LinearLayout>
+    
+</RelativeLayout>
